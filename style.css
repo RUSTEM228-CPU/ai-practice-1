@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    transition: 0.3s;
+    padding: 20px;
+}
+
+.dark-theme {
+    background-color: #1a1a1a;
+    color: white;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 10px;
+    width: 250px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* 2-тапсырма: Hover эффектісі */
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+#chat-output {
+    border: 1px solid #ddd;
+    height: 200px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+    padding: 10px;
+}
